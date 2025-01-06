@@ -27,6 +27,7 @@ TEST_BIN=target_arm64_17
 all: $(VIR_NO_MORPH) $(VIR)
 
 run: $(VIR_NO_MORPH) $(VIR)
+	-mkdir $(EVO_DIR)/test
 	cp slotmachine $(EVO_DIR)/test
 	cp $(TRG_DIR)/$(TEST_BIN) $(EVO_DIR)/test_bin
 	cp $(TRG_DIR)/target_arm64_broken_0 $(EVO_DIR)/test

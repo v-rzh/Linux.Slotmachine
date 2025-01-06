@@ -26,7 +26,7 @@ the morph table generator will be built and ran against the plain virus,
 producing a version that will transform after each infection.
 
 If you're experimenting with the source code I strongly advise running
-`make clean` before rebuilding
+`make clean` before rebuilding.
 
 ## Testing
 The `targets` directory has a decent number of hosts to test the virus, as
